@@ -5,7 +5,7 @@ import{ Star, logo} from '../../../public/images'; // Ensure the correct path
 
 function Header() {
   return (
-    <div className='flex h-[72px] bg-amber-200 gap-5 fixed w-screen z-[1000] ' >
+    <div className='flex h-[72px] backdrop-blur-lg gap-5 fixed w-screen z-[1000] ' >
       <div className=" w-[80%] ml-[10%] h-full flex justify-between items-center">
         <div className='flex gap-5'>
             <Image src={logo} alt="Logo" width={80} height={50} />

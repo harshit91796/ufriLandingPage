@@ -52,7 +52,7 @@ function Footer() {
               placeholder="Email"
               type="text"
             />
-            <button className="bg-black  text-white w-[180px] h-[60px] rounded">
+            <button className="bg-black hover:bg-red-400 text-white w-[180px] h-[60px] rounded">
               Subscribe
             </button>
           </div>
